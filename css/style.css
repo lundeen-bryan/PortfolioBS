@@ -1,4 +1,5 @@
 @import url("../webfonts/Lato_Regular/stylesheet.css");
+@import url("../webfonts/Lato_Bold/stylesheet.css");
 /*============= RESETS =============*/
 
 /*-- iPhone X Remove Gutters --*/
@@ -17,11 +18,46 @@ html, body {
 
 
 /*============= NAVIGATION =============*/
+.navbar-brand img {
+    height: 2rem;
+}
+.navbar {
+    padding: 0.7rem 3rem;
+    text-transform: uppercase;
+    font-family: "Lato Bold";
+    letter-spacing: 0.1rem;
+    font-size: 0.9rem;
+}
 
+.navbar-nav li {
+    padding-right: 0.8rem;
+}
+
+.navbar-nav .nav-link {
+    color: white;
+    padding-top: 0.8rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #1EBBA3;
+}
+
+.custom-toggler-icon {
+    color: white;
+    font-size: 1.6rem;
+}
 
 /*-- Remove Button Outline --*/
+button:focus, a:focus {
+    outline: 0;
+    -webkit-appearance: none;
+    box-shadow: none;
+}
 
-
+button, a, a.btn {
+    transition: all 0.6s ease;
+}
 /*============= LANDING PAGE =============*/
 
 /*--- Fixed Landing Page Section --*/
@@ -100,4 +136,15 @@ Extra (xl) large devices (large desktops, 1200px and up)
 =============*/
 .text-nuno {
     color: #1EBBA3;
+}
+.btn-outline-success {
+    color: #1EBBA3;
+    border-color: #1EBBA3;
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: #1EBBA3;
+    border-color: #1EBBA3;
+    transition: all 0.6s ease
 }
