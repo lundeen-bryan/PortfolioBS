@@ -167,15 +167,32 @@ button, a, a.btn {
 
 
 /*============= FEATURES SECTION =============*/
+.btn-sm {
+    border-width: medium;
+    borderradiu: 0;
+    padding: .5rem 1.1rem;
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin: 1rem;
+}
 
-.fixed {
-   overflow: hidden; /*-- Included for iOS update --*/
+.btn-nuno {
+    background-color: #1EBBA3;
+    color: white;
+}
+
+.btn-nuno:hover {
+    background-color: #189582;
+    color: white;
 }
 
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
 /*--- iOS Fixed Background Image --*/
 
+.fixed {
+   overflow: hidden; /*-- Included for iOS update --*/
+}
 
 /*============= PORTFOLIO SECTION =============*/
 
@@ -260,4 +277,9 @@ Extra (xl) large devices (large desktops, 1200px and up)
     text-transform: uppercase;
     padding-top: 25px;
     padding-bottom: 15px;
+}
+.row.text-center.py-4.os-animation.justify-content-center .col-11.col-md-10.col-lg-9 .start-section {
+}
+.start-section {
+    margin-top: 90px;
 }
