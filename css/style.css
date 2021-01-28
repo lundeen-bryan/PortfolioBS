@@ -100,8 +100,69 @@ button, a, a.btn {
     will-change: transform;
 }
 
-/*-- Landing Page Caption --*/
+.banner-btn {
+  width: 200px;
+  padding: 15px;
+  font-family: 'RobotoCondensed Regular', sans-serif;
+  font-size: 17px;
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+  background: transparent;
+  color: #ffffff;
+  border-radius: 50px;
+  border: 2px solid #fff;
+  outline: none;
+  cursor: pointer;
+  transition: transform .3s;
+}
 
+.banner-btn:hover {
+    color: #1EBBA3;
+    background-color: rgba(255,255,255,0.10);
+    transition: transform .2s;
+}
+
+.arrow {
+    font-size: 25px;
+    /* [disabled]margin-bottom: 30px; */
+    animation: anim 3s infinite;
+}
+
+@keyframes anim {
+  0% {transform: translateY(0)}
+  20% {transform: translateY(0)}
+  40% {transform: translateY(-30px)}
+  50% {transform: translateY(0)}
+  60% {transform: translateY(-15px)}
+  80% {transform:  translateY(0)}
+  100% {transform: translateY(0)}
+}
+/*-- Landing Page Caption --*/
+.caption {
+    z-index: 1;
+    position: absolute;
+    top: 28%;
+    width: 100%;
+    max-width: 100%;
+}
+.caption h1 {
+    font-size: 4.0rem;
+    text-decoration: underline;
+    letter-spacing: 0.3rem;
+    text-shadow: .1rem .1rem .8rem black;
+    /* [disabled]padding-bottom: 1rem; */
+}
+.caption h3 {
+    font-size: 2.5rem;
+    text-shadow: .1rem .1rem .5rem black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.caption btn-lg {
+    border-width: medium;
+    padding: .8rem 1.5rem;
+    font-size: 1.1rem;
+}
 /*-- Bouncing Down Arrow --*/
 
 
@@ -200,4 +261,3 @@ Extra (xl) large devices (large desktops, 1200px and up)
     padding-top: 25px;
     padding-bottom: 15px;
 }
-
