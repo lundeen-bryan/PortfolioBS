@@ -15,8 +15,10 @@ html, body {
 .text-nuno {
    color: #1EBBA3;
 }
-
 /*--- Nav Scrolling Offset --*/
+.offset-section-top {
+    margin-top: 90px;
+}
 
 /*--- Extra Bootstrap Column Padding --*/
 
@@ -186,6 +188,23 @@ button, a, a.btn {
     color: white;
 }
 
+h3.heading {
+    text-transform: uppercase;
+    font-family: "Lato Bold";
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 1.9rem;
+}
+
+.heading-underline {
+    width: 3rem;
+    height: 0.25rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1rem;
+    background-color: rgba(30,187,163,1.00);
+}
 /*===== FIXED BACKGROUND IMG DARK =====*/
 
 /*--- iOS Fixed Background Image --*/
@@ -278,8 +297,5 @@ Extra (xl) large devices (large desktops, 1200px and up)
     padding-top: 25px;
     padding-bottom: 15px;
 }
-.row.text-center.py-4.os-animation.justify-content-center .col-11.col-md-10.col-lg-9 .start-section {
-}
-.start-section {
-    margin-top: 90px;
-}
+
+
