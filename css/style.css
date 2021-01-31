@@ -19,6 +19,9 @@ html, body {
 .offset-section-top {
     margin-top: 90px;
 }
+.offset-section-pricing {
+    margin-top: 50px;
+}
 
 /*--- Extra Bootstrap Column Padding --*/
 
@@ -217,8 +220,38 @@ h3.heading {
 
 
 /*============= PRICING SECTION =============*/
+.pricing-column {
+    background-color: white;
+    height: 100%;
+    padding: 1.6rem;
+    border-top: .25rem solid #1EBBA3;
+    box-shadow: 0 0 .8rem rgba(0,0,0,0.75);
+    transition: transform .7s ease;
+    position: relative;
+    overflow: hidden;
+}
+.pricing-column:hover {
+    transform: scale(1.1);
+}
+.pricing-column h5 {
+    font-size: 1.1rem;
+    font-family: "Lato Bold";
+}
 
-
+.ribbon {
+    background-color: #6C757D;
+    color: white;
+    font-size: .8rem;
+    font-family: "Lato Bold";
+    height: 2rem;
+    width: 10rem;
+    padding-top: .4rem;
+    position: absolute;
+    transform: rotate(45deg);
+    right: -2.8rem;
+    top: 1.5rem;
+    box-shadow: 0 0 .8rem rgba(0,0,0,0.25);
+}
 /*============= TEAM SECTION FIXED BG IMG LIGHT =============*/
 
 /*--- Team Light Background Image --*/
@@ -276,6 +309,11 @@ Extra (xl) large devices (large desktops, 1200px and up)
     color: #1EBBA3;
     border-color: #1EBBA3;
 }
+.fa-angle-down {
+    color: rgba(0,0,0,0.40);
+    font-size: 2.2rem;
+}
+
 
 .btn-outline-success:hover {
     color: #fff;
@@ -296,4 +334,10 @@ Extra (xl) large devices (large desktops, 1200px and up)
     text-transform: uppercase;
     padding-top: 25px;
     padding-bottom: 15px;
+}
+.check-go {
+    color: rgba(30,187,163,1.00);
+}
+.check-inactive {
+    color: lightgrey;
 }
