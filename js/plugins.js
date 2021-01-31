@@ -53,8 +53,27 @@ $(document).on('click', 'a[href^="#"]', function(event) {
 
 
 /*========== SKILLS COUNTER ==========*/
-
-
+$('.frontEndbtn').click(function(){
+    $('.counter').counterUp({
+        time: 2000,
+        delay: 10,
+        beginAt: 1
+    })
+})
+$('.frameworksbtn').click(function(){
+    $('.counter').counterUp({
+        time: 2000,
+        delay: 10,
+        beginAt: 1
+    })
+})
+$('.elseModalbtn').click(function(){
+    $('.counter').counterUp({
+        time: 3000,
+        delay: 25,
+        beginAt: 1
+    })
+})
 /*========== CLIENTS CAROUSEL ==========*/
 
 
