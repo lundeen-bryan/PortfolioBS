@@ -19,6 +19,10 @@ html, body {
 .offset-section-top {
     margin-top: 90px;
 }
+/*--- Nav Scrolling Offset --*/
+.offset-section-about {
+    margin-top: 105px;
+}
 .offset-section-pricing {
     margin-top: 50px;
 }

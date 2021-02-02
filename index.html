@@ -40,7 +40,8 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#home">Home <span class="sr-only">(top of page)</span></a> <!-- sr-only will hide the words but still accessible to screen readers -->
+            <a class="nav-link" href="#home">Home <span class="sr-only">(top of page)</span></a>
+            <!-- sr-only will hide the words but still accessible to screen readers -->
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#skills">skills</a>
@@ -52,7 +53,7 @@
             <a class="nav-link" href="#pricing">Pricing</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About Me</a>
+            <a class="nav-link" href="#team">About Me</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#linkedin">linkedin</a>
@@ -80,19 +81,21 @@
 <!-- END NAVIGATION -->
 
 <!-- START LANDING PAGE IMAGE-->
-    <div class="landing">
-        <div class="home-wrap">
-            <div class="home-inner"></div>
-        </div>
-    </div>
+<div class="landing">
+  <div class="home-wrap">
+    <div class="home-inner"></div>
+  </div>
+</div>
 <!-- END LANDING PAGE IMAGE-->
-    
+
 <!-- START LANDING PG CAPTION -->
 <div class="caption text-center text-light text-uppercase">
   <h1 class="font-weight-bold os-animation" data-animation="bounceInUp" data-delay="2s">Bryan Lundeen<span class="text-nuno">.com</span></h1>
   <h3 class="os-animation" data-animation="bounceInUp" data-delay=".5s">Looking to <span class="text-Fnuno">hire a developer</span>?</h3>
   <div class="arrow"><i class="fas fa-arrow-down os-animation" data-animation="bounceInUp" data-delay="2s"></i></div>
-  <a href="#skills"><button class="btn banner-btn os-animation" data-animation="bounceInUp" data-delay="2s">get started</button></a>
+  <a href="#skills">
+  <button class="btn banner-btn os-animation" data-animation="bounceInUp" data-delay="2s">get started</button>
+  </a>
 </div>
 <!-- END LANDING PG CAPTION -->
 <!-- End Home Section -->
@@ -105,6 +108,7 @@
       <p class="lead">Whether you're searching for someone to hire as a freelance developer on your project, or looking to fill a spot at your company, you'll find what you need right here.</p>
       <a href="#contact" class="btn btn-secondary btn-sm">Request a Quote</a>
       <a href="#portfolio" class="btn btn-nuno btn-sm">Portfolio Examples</a>
+      <a href="#" class="btn btn-secondary btn-sm">View Resume/CV</a>
     </div>
   </div>
   
@@ -118,29 +122,27 @@
         <h3 class="heading">Skills</h3>
         <!-- did not have to center bcuz only 1-col, no need for more margin-top -->
         <div class="heading-underline"></div>
-          <div class="container mb-4">
-        <div class="row">
-          <div class="col-xl-12 text-center">
-            <p>If you want to know more about my skills please
-              <a href="#contact">contact me</a>
-              .</p>
+        <div class="container mb-4">
+          <div class="row">
+            <div class="col-xl-12 text-center">
+              <p>My primary focus is front-end development.</p>
+            </div>
           </div>
-        </div>
           <div class="row text-center">
             <div class="col-xl-4 col-md-12">
               <h3>HTML5/CSS3/Javascript</h3>
               <p>Designing or building websites and apps.</p>
-                <button type="button" class="btn btn-secondary mb-3 frontEndbtn" data-toggle="modal" data-target="#frontEnd">Learn More</button>
+              <button type="button" class="btn btn-secondary mb-3 frontEndbtn" data-toggle="modal" data-target="#frontEnd">Learn More</button>
             </div>
             <div class="col-xl-4 col-md-12">
               <h3 mt-4>Frameworks &amp; Libraries</h3>
               <p class="mt-2">Bootsrap, jQuery &amp; React</p>
-                <button type="button" class="btn btn-secondary mb-3 frameworksbtn" data-toggle="modal" data-target="#frameworks">Learn More</button>
+              <button type="button" class="btn btn-secondary mb-3 frameworksbtn" data-toggle="modal" data-target="#frameworks">Learn More</button>
             </div>
             <div class="col-xl-4 col-md-12">
               <h3>Everything Else</h3>
-              <p class="mt-2">Project management, Agile, O365, etc.</p>
-                <button type="button" class="btn btn-secondary mb-3 elseModalbtn" data-toggle="modal" data-target="#elseModal">Learn More</button>
+              <p class="mt-2">Project management, Agile, APIs, etc.</p>
+              <button type="button" class="btn btn-secondary mb-3 elseModalbtn" data-toggle="modal" data-target="#elseModal">Learn More</button>
             </div>
           </div>
           <br>
@@ -149,17 +151,17 @@
           <i class="fas fa-angle-down"></i>
           </span>
           </a>
-          </div>
+        </div>
       </div>
     </div>
   </div>
-<!-- Skills Modal Start -->
-<!-- Modal Front End -->
-<div class="modal fade" id="frontEnd" tabindex="-1" aria-labelledby="frontEndLabel" role="dialog">
+  <!-- Skills Modal Start -->
+  <!-- Modal Front End -->
+  <div class="modal fade" id="frontEnd" tabindex="-1" aria-labelledby="frontEndLabel" role="dialog">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="frontEndLabel">Design &amp; Software Development</h5>
+          <h5 class="modal-title" id="frontEndLabel">Design &amp; Front-End Web Development</h5>
           <button type="button" data-dismiss="modal" aria-label="Close"><i class="fas fa-times "></i></button>
         </div>
         <div class="modal-body">
@@ -204,9 +206,9 @@
       </div>
     </div>
   </div>
-    <!-- Frontend Modal End -->
-<!-- Frameworks Modal Start -->
-<div class="modal fade" id="frameworks" tabindex="-1" aria-labelledby="frameworksLabel" role="dialog">
+  <!-- Frontend Modal End -->
+  <!-- Frameworks Modal Start -->
+  <div class="modal fade" id="frameworks" tabindex="-1" aria-labelledby="frameworksLabel" role="dialog">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
@@ -219,7 +221,7 @@
             <div class="text-center justify-content-center os-animation" data-animation="fadeInDown" style="font-size: 50px">
               <i class="fab fa-bootstrap"></i>
               <i><img src="img/iconfinder_JQuery_logo_282806.png" width="64" height="64" alt=""/></i>
-                <i class="fab fa-react"></i>
+              <i class="fab fa-react"></i>
               <p style="font-size: 1rem">Bootstrap, jQuery &amp; React</p>
             </div>
             <div class="row justify-content-center text-center">
@@ -253,9 +255,9 @@
       </div>
     </div>
   </div>
-<!-- Frameworks Modal End -->
-<!-- Everything Else Modal Start -->
-<div class="modal fade" id="elseModal" tabindex="-1" aria-labelledby="elseModalLabel" role="dialog">
+  <!-- Frameworks Modal End -->
+  <!-- Everything Else Modal Start -->
+  <div class="modal fade" id="elseModal" tabindex="-1" aria-labelledby="elseModalLabel" role="dialog">
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
@@ -270,7 +272,7 @@
               <i class="fas fa-chart-bar"></i>
               <i class="fas fa-clipboard-list"></i>
               <i class="fas fa-coffee"></i>
-              <p style="font-size: 1rem">Office365, SharePoint, APIs, C#, ASP.NET, VBA, Command Line, T-SQL, WAMP, Wordpress, PHP, Scrm/Agile, PowerBI and I make a mean cup of coffee!</p>
+              <p style="font-size: 1rem">SharePoint, C#, .NET, VBA, Linux, SQL, WAMP, Wordpress, PHP, Scrum, and to borrow a quote from Ice Cube, I make a mean cup of coffee if you give me the right ingredients!</p>
             </div>
             <div class="row justify-content-center text-center">
               <div class="col-xl-12">
@@ -303,8 +305,8 @@
       </div>
     </div>
   </div>
-<!-- Everything Else Modal End -->
-
+  <!-- Everything Else Modal End -->
+  
 </div>
 <!-- End of Skills Section -->
 
@@ -318,12 +320,12 @@
         <div class="row text-center">
           <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-0 os-animation" data-animation="bounceInLeft" data-delay=".2s">
             <div class="portfolio-item overflow-hidden">
-             <img src="https://via.placeholder.com/640x480" alt="" class="example-image w-100 img-fluid">
+              <img src="https://via.placeholder.com/640x480" alt="" class="example-image w-100 img-fluid">
             </div>
             <div class="container pl-5 pr-5">
-                <!-- item 1-->
+              <!-- item 1-->
               <h3>Napa Baloon Tours</h3>
-                <button type="button" class="btn btn-secondary mb-3" data-toggle="modal" data-target="#modalBaloon">Details</button>
+              <button type="button" class="btn btn-secondary mb-3" data-toggle="modal" data-target="#modalBaloon">Details</button>
               <p>Promo website for Baloon Tours over the Napa Valley!</p>
             </div>
           </div>
@@ -332,133 +334,140 @@
               <img src="https://via.placeholder.com/640x480" alt="" class="example-image w-100 img-fluid">
             </div>
             <div class="container pl-5 pr-5">
-                <!-- item 2-->
+              <!-- item 2-->
               <h3>Photo Studio V</h3>
-                <button type="button" class="btn btn-secondary mb-3" data-toggle="modal" data-target="#modalPhoto">Details</button>
+              <button type="button" class="btn btn-secondary mb-3" data-toggle="modal" data-target="#modalPhoto">Details</button>
               <p>Local photo studio website.</p>
-            </div>              
+            </div>
           </div>
           <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-0 os-animation" data-animation="bounceInRight">
             <div class="portfolio-item overflow-hidden">
               <img src="https://via.placeholder.com/640x480" alt="" class="example-image w-100 img-fluid">
             </div>
             <div class="container pl-5 pr-5">
-                <!-- item 3-->
+              <!-- item 3-->
               <h3>Bargain Books</h3>
-                <button type="button" class="btn btn-secondary mb-3" data-toggle="modal" data-target="#modalBook">Details</button>
+              <button type="button" class="btn btn-secondary mb-3" data-toggle="modal" data-target="#modalBook">Details</button>
               <p>Local bookstore website.</p>
-            </div>              
+            </div>
           </div>
           <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 p-0 os-animation" data-animation="bounceInRight" data-delay=".2s">
             <div class="portfolio-item overflow-hidden">
               <img src="https://via.placeholder.com/640x480" alt="" class="example-image w-100 img-fluid">
             </div>
             <div class="container pl-5 pr-5">
-                <!-- item 4-->
+              <!-- item 4-->
               <h3>Muscle Cars</h3>
               <button type="button" class="btn btn-secondary mb-3" data-toggle="modal" data-target="#modalCar">Details</button>
               <p>Hobby website built for local muscle car enthusiasts.</p>
-            </div>              
+            </div>
           </div>
         </div>
       </div>
-      <a href="#pricing" class="down-arrow text-center">
-      <span class="arrow d-none d-md-block">
-      <i class="fas fa-angle-down"></i>
-      </span>
-      </a>
+      <div class="row">
+        <div class="col-xl-12">
+          <span>
+          <a href="#">More Demos <i class="fas fa-external-link-alt"></i></a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <a href="#pricing" class="down-arrow text-center">
+    <span class="arrow d-none d-md-block">
+    <i class="fas fa-angle-down"></i>
+    </span>
+    </a>
+  </div>
+  <!-- ModalBaloon -->
+  <div class="modal fade" id="modalBaloon" tabindex="-1" aria-labelledby="modalBaloonLabel" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalBaloonLabel">Napa Baloon Tours</h5>
+          <button type="button" data-dismiss="modal" aria-label="Close"><i class="fas fa-times "></i></button>
+        </div>
+        <div class="modal-body">
+          <img src="https://via.placeholder.com/640x480" alt="" class="w-100 img-thumbnail">
+          <p><strong>Problem:</strong>Many competitors provide balloon tours in Napa but the client wanted to stand out in some way. <strong>Solution:</strong>Created a site that showcased the clients uniqueness among competitors with an animated landing page. <strong>Technologies Used:</strong>HTML5/CSS3, Javascript, jQuery, Socket.io, and Bootstrap.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success">View Live</button>
+          <button type="button" class="btn btn-primary">Github</button>
+          <button type="button" class="btn btn-warning">Blog Post</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
     </div>
   </div>
-    <!-- ModalBaloon -->
-    <div class="modal fade" id="modalBaloon" tabindex="-1" aria-labelledby="modalBaloonLabel" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="modalBaloonLabel">Napa Baloon Tours</h5>
-            <button type="button" data-dismiss="modal" aria-label="Close"><i class="fas fa-times "></i></button>
-          </div>
-          <div class="modal-body">
-              <img src="https://via.placeholder.com/640x480" alt="" class="w-100 img-thumbnail">
-            <p><strong>Problem:</strong>Many competitors provide balloon tours in Napa but the client wanted to stand out in some way. <strong>Solution:</strong>Created a site that showcased the clients uniqueness among competitors with an animated landing page. <strong>Technologies Used:</strong>HTML5/CSS3, Javascript, jQuery, Socket.io, and Bootstrap.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-success">View Live</button>
-            <button type="button" class="btn btn-primary">Github</button>
-            <button type="button" class="btn btn-warning">Blog Post</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
+  <!-- Modal End -->
+  <!-- ModalPhoto -->
+  <div class="modal fade" id="modalPhoto" tabindex="-1" aria-labelledby="modalPhotoLabel" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalPhotoLabel">Photo Studio V</h5>
+          <button type="button" data-dismiss="modal" aria-label="Close"><i class="fas fa-times "></i></button>
         </div>
-      </div>
-    </div>
-    <!-- Modal End -->
-    <!-- ModalPhoto -->
-    <div class="modal fade" id="modalPhoto" tabindex="-1" aria-labelledby="modalPhotoLabel" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="modalPhotoLabel">Photo Studio V</h5>
-            <button type="button" data-dismiss="modal" aria-label="Close"><i class="fas fa-times "></i></button>
-          </div>
-          <div class="modal-body">
-            <div class="container-fluid">
+        <div class="modal-body">
+          <div class="container-fluid">
             <img src="https://via.placeholder.com/640x480" alt="" class="w-100 img-thumbnail">
             <p>Local Photo Studio Website. Made with pure vanilla HTML/CSS, Javascript and Bootstrap.</p>
           </div>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-success">View Live</button>
-            <button type="button" class="btn btn-primary">Github</button>
-            <button type="button" class="btn btn-warning">Blog Post</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success">View Live</button>
+          <button type="button" class="btn btn-primary">Github</button>
+          <button type="button" class="btn btn-warning">Blog Post</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
-    </div>            
-    <!-- Modal End -->
-    <!-- ModalBook -->
-    <div class="modal fade" id="modalBook" tabindex="-1" aria-labelledby="modalBookLabel" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="modalBookLabel">Bargain Books</h5>
-            <button type="button" data-dismiss="modal" aria-label="Close"><i class="fas fa-times "></i></button>
-          </div>
-          <div class="modal-body">
-              <img src="https://via.placeholder.com/640x480" alt="" class="w-100 img-thumbnail">
-            <p>Local bookstore website. Made with pure vanilla HTML/CSS, Javascript and Bootstrap.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-success">View Live</button>
-            <button type="button" class="btn btn-primary">Github</button>
-            <button type="button" class="btn btn-warning">Blog Post</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
+    </div>
+  </div>
+  <!-- Modal End -->
+  <!-- ModalBook -->
+  <div class="modal fade" id="modalBook" tabindex="-1" aria-labelledby="modalBookLabel" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalBookLabel">Bargain Books</h5>
+          <button type="button" data-dismiss="modal" aria-label="Close"><i class="fas fa-times "></i></button>
+        </div>
+        <div class="modal-body">
+          <img src="https://via.placeholder.com/640x480" alt="" class="w-100 img-thumbnail">
+          <p>Local bookstore website. Made with pure vanilla HTML/CSS, Javascript and Bootstrap.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success">View Live</button>
+          <button type="button" class="btn btn-primary">Github</button>
+          <button type="button" class="btn btn-warning">Blog Post</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
-    </div>            
-    <!-- Modal End -->
-    <!-- ModalCar -->
-    <div class="modal fade" id="modalCar" tabindex="-1" aria-labelledby="modalCarLabel" role="dialog">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="modalCarLabel">Muscle Cars</h5>
-            <button type="button" data-dismiss="modal" aria-label="Close"><i class="fas fa-times "></i></button>
-          </div>
-          <div class="modal-body">
-              <img src="https://via.placeholder.com/640x480" alt="" class="w-100 img-thumbnail">
-            <p>Website for local car enthusiasts to go with the towns muscle car night at Dairy Queen! Made with pure vanilla HTML/CSS, Javascript and Bootstrap.</p>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-success">View Live</button>
-            <button type="button" class="btn btn-primary">Github</button>
-            <button type="button" class="btn btn-warning">Blog Post</button>
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          </div>
+    </div>
+  </div>
+  <!-- Modal End -->
+  <!-- ModalCar -->
+  <div class="modal fade" id="modalCar" tabindex="-1" aria-labelledby="modalCarLabel" role="dialog">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalCarLabel">Muscle Cars</h5>
+          <button type="button" data-dismiss="modal" aria-label="Close"><i class="fas fa-times "></i></button>
+        </div>
+        <div class="modal-body">
+          <img src="https://via.placeholder.com/640x480" alt="" class="w-100 img-thumbnail">
+          <p>Website for local car enthusiasts to go with the towns muscle car night at Dairy Queen! Made with pure vanilla HTML/CSS, Javascript and Bootstrap.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success">View Live</button>
+          <button type="button" class="btn btn-primary">Github</button>
+          <button type="button" class="btn btn-warning">Blog Post</button>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
       </div>
-    </div>            
-    <!-- Modal End -->
+    </div>
+  </div>
+  <!-- Modal End -->
 </div>
 <!-- End of Portfolio Section -->
 
@@ -500,15 +509,10 @@
             <h1 class="py-2">$99</h1>
             <a href="#contact" class="btn btn-nuno btn-sm">BUY NOW</a>
           </div>
-          <a href="#about" class="down-arrow text-center">
-          <span class="arrow d-none d-md-block">
-          <i class="fas fa-angle-down"></i>
-          </span>
-          </a>
         </div>
         <div class="col-xl-4 col-md-6 os-animation" data-animation="fadeInRight">
           <div class="pricing-column">
-            <h3 class="border-bottom py-2 mx-3">PREMIUM</h3>
+            <h3 class="border-bottom py-2 mx-3">PREMIUM*</h3>
             <p class="lead py-2 small">Go premium for a design customized to your needs.</p>
             <p class="pb-2 text-left"><i class="far fa-clock"></i>&nbsp;10 Day Delivery&nbsp;&nbsp;<i class="fas fa-sync-alt"></i>&nbsp;3 Revisions</p>
             <h5 class="pb-2 text-left">Pages: Up To 5</h5>
@@ -518,46 +522,98 @@
             <h5 class="text-left"><i class="fas fa-check check-go"></i>&nbsp;Source Code</h5>
             <h1 class="py-2">$299</h1>
             <a href="#contact" class="btn btn-secondary btn-sm">BUY NOW</a>
+            <p class="mt-2 text-center justify-content-center" style="font-size: 14px">*also open to contract employment &amp; for bigger projects contact me</p>
           </div>
         </div>
       </div>
+      <a href="#team" class="down-arrow text-center">
+      <span class="arrow d-none d-md-block">
+      <i class="fas fa-angle-down"></i>
+      </span>
+      </a>
     </div>
   </div>
 </div>
 <!-- End of Pricing Section -->
 
-<p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
-    <p>amet, consectetur adipisicing elit. Ipsum officia fuga optio perspiciatis saepe nihil eos vitae commodi assumenda odio.</p>
 <!-- Start about Section -->
-<div id="about" class="offset-section"></div>
+<div id="team">
+  <div class="fixed">
+    <div class="row light">
+      <div class="col-12 os-animation" data-animation="fadeInUp">
+        <h3 class="heading offset-section-about">About Me</h3>
+        <div class="heading-underline"></div>
+      </div>
+      <div class="container">
+        <div class="os-animation" data-animation="fadeInUp">
+          <div id="team-carousel" class="owl-carousel owl-theme">
+            <div class="card">
+              <img src="img/team/craftsman.png" alt="" class="card-img-top rounded-0 img-fluid">
+              <div class="card-body">
+                <h4 class="font-weight-bold">Trait Number 1</h4>
+                <h5 class="text-nuno">Craftsmanship</h5>
+                <p class="border-top border-botton py-3 my-3">Woodworking is one of the things I enjoy when I'm not coding. A bookshelf, a new workbench, a cabinet... I enjoy building quality into something and this sense of craftsmanship also comes through in my web development.</p>
+              </div>
+            </div>
+            <!-- Card End 1 -->
+            
+            <div class="card">
+              <img src="img/team/craftsman.png" alt="" class="card-img-top rounded-0">
+              <div class="card-body">
+                <h4 class="font-weight-bold">Trait Number 2</h4>
+                <h5 class="text-nuno">Craftsmanship</h5>
+                <p class="border-top border-botton py-3 my-3">One of my hobbies when I'm not coding is woodworking, or building anything with my hands. A bookshelf, a new workbench, a cabinet... I enjoy building something that I can see and this also comes through in my web development projects.</p>
+              </div>
+            </div>
+            <!-- Card End 2 -->
+            
+            <div class="card">
+              <img src="img/team/craftsman.png" alt="" class="card-img-top rounded-0">
+              <div class="card-body">
+                <h4 class="font-weight-bold">Trait Number 3</h4>
+                <h5 class="text-nuno">Craftsmanship</h5>
+                <p class="border-top border-botton py-3 my-3">One of my hobbies when I'm not coding is woodworking, or building anything with my hands. A bookshelf, a new workbench, a cabinet... I enjoy building something that I can see and this also comes through in my web development projects.</p>
+              </div>
+            </div>
+            <!-- Card End 3 -->
+            
+            <div class="card">
+              <img src="img/team/craftsman.png" alt="" class="card-img-top rounded-0">
+              <div class="card-body">
+                <h4 class="font-weight-bold">Trait Number 4</h4>
+                <h5 class="text-nuno">Craftsmanship</h5>
+                <p class="border-top border-botton py-3 my-3">One of my hobbies when I'm not coding is woodworking, or building anything with my hands. A bookshelf, a new workbench, a cabinet... I enjoy building something that I can see and this also comes through in my web development projects.</p>
+              </div>
+            </div>
+            <!-- Card End 4 -->
+            
+            <div class="card">
+              <img src="img/team/craftsman.png" alt="" class="card-img-top rounded-0">
+              <div class="card-body">
+                <h4 class="font-weight-bold">Trait Number 5</h4>
+                <h5 class="text-nuno">Craftsmanship</h5>
+                <p class="border-top border-botton py-3 my-3">One of my hobbies when I'm not coding is woodworking, or building anything with my hands. A bookshelf, a new workbench, a cabinet... I enjoy building something that I can see and this also comes through in my web development projects.</p>
+              </div>
+            </div>
+            <!-- Card End 5 -->
+            
+          </div>
+          <!-- End Team Carousel -->
+        </div>
+        <!-- End Animation -->
+      </div>
+      <!-- End Container -->
+      
+    </div>
+    <!-- End Row Light -->
+    
+    <div class="fixed-wrap">
+      <div class="fixed-light"></div>
+    </div>
+  </div>
+  <!-- Fixed BG img Light End -->
+  
+</div>
 <!-- End about Section -->
 
 <!-- Start linkedin Section -->
