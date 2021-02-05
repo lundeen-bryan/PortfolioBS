@@ -320,7 +320,7 @@
 
 <!-- Start Portfolio Section -->
 <div id="portfolio">
-  <div class="container-fluid px-0">
+  <div class="container-fluid px-5">
     <div class="row justify-content-center py-5">
       <div class="col-xl-12 mt-5 os-animation" data-animation="fadeInUp">
         <h3 class="heading offset-section-top">Portfolio</h3>
@@ -541,15 +541,21 @@ End of comment out -->
               </div>
             </div>
             <!-- Card End 4 -->
-            
           </div>
+          <a href="#contact" class="down-arrow text-center">
+          <span class="arrow d-none d-md-block mt-5">
+          <i class="fas fa-angle-down"></i>
+          </span>
+          </a>
+
+
           <!-- End Team Carousel -->
         </div>
         <!-- End Animation -->
       </div>
       <!-- End Container -->
-      
     </div>
+
     <!-- End Row Light -->
 
     <div class="container">
@@ -563,12 +569,55 @@ End of comment out -->
 </div>
 <!-- End about Section -->
 
-<!-- Start linkedin Section -->
-<div id="linkedin" class="offset-section">LinkedIn Endorsements &amp; Recommendations</div>
-<!-- End of linkedin Section -->
-
 <!-- Start Contact Section -->
-<div id="contact" class="offset-section"></div>
+<div id="contact" class="offset-section-top">
+  <div class="container-fluid footer px-0">
+    <div class="row outer">
+      <div class="container">
+        <div class="row py-0">
+          <div class="col-xl-5 px-0 pr-xl-3">
+            <img src="img/Logo-single.gif" alt="" width="180" height="158" class="img-fluid"/>
+            <p>Currently seeking employment as a web/software developer specializing in front-end development. Open to consider offers for contract work, internships and freelance.</p>
+            <strong>Contact Info</strong>
+            <p></p>
+            <p>707-469-3565 <br>
+              Bryan@BryanLundeen.com</p>
+            <ul class="social">
+              <li>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xl-7 px-0 pl-m-3">
+            <h3>Contact Us</h3>
+            <form action="contact/contact.php" method="post" id="contact-form">
+              <div class="messages"></div>
+              <div class="controls">
+                <div class="form-group">
+                  <input type="text" id="form_name" class="form-control" name="name" required="required" placeholder="Enter your name.">
+                </div>
+                <div class="form-group">
+                  <input type="email" id="form_email" class="form-control" name="email" required="required" placeholder="Enter your email.">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" id="form_message" rows="4" class="form-control" required="required" placeholder="Add your message."></textarea>
+                </div>
+                <input type="submit" class="btn btn-outline-light btn-sm" value="Send Message">
+              </div>
+            </form>
+          </div>
+        </div>
+      <hr class="socket">
+      Copyright &copy; <script>document.write(new Date().getFullYear())</script> BryanLundeen.com All Rights Reserved </div>
+      </div>
+  </div>
+</div>
 <!-- End Contact Section -->
 
 <!-- Top Scroll -->
